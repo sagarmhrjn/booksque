@@ -1,0 +1,28 @@
+{>"layouts/master" /}
+
+{<body}
+    <div class = "large-4 columns book">
+        <img src = "/img/node1.jpg">
+    </div>
+    <div class = "large-8 columns book">
+       <h2>Professional Node.js</h2>
+       <ul class = "bookInfo">
+            <li>Category: Node.js</li>
+            <li>Author: John Doe</li>
+            <li>Publisher: Some publisher</li>
+       </ul>
+       <br>
+       <div class = "price">Buy it for<span>$19.99</span></div><br>
+        <br>
+        <b>Learn to build fast and scalable software in JavaScript with Node.js</b>
+        <p>Node.js is a powerful and popular new framework for writing scalable network programs using JavaScript. This no nonsense book begins with an overview of Node.js and then quickly dives into the code, core concepts, and APIs. In-depth coverage pares down the essentials to cover debugging, unit testing, and flow control so that you can start building and testing your own modules right away.
+            <ul style = "text-align:justify;list-style-type:square;">
+                <li>Covers node and asynchronous programming main concepts</li>
+                <li>Addresses the basics: modules, buffers, events, and timers</li>
+                <li>Explores streams, file systems, networking, and automated unit testing</li>
+                <li>Goes beyond the basics, and shares techniques and tools for debugging, unit testing, and flow control.</li>
+            </ul>
+            If you already know JavaScript and are curious about the power of Node.js, then this is the ideal book for you</p>
+        <a class = "button success">Add To Cart</a>
+    </div>   
+{/body}

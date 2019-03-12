@@ -1,0 +1,32 @@
+{>"layouts/master" /}
+
+{<body}
+    <div class = "large-3 columns book">
+        <img src = "/img/node1.jpg">
+        <h4>Professional Node.js</h4>
+        <p>Learn to build fast and scalable software in JavaScript with Node.js. Covers node and asynchronous programming main concepts. Explores streams, file systems, networking, and automated unit testing</p>
+        <div class = "price">Buy it for<span>$19.99</span></div><br>
+        <a href = "/books/details/1" class = "button small">Book Details</a>
+    </div>
+    <div class = "large-3 columns book">
+        <img src = "/img/node2.jpg">
+        <h4>Node.js Blueprint</h4>
+        <p>Explore Node.js compatibility with AngularJS, Socket.io, BackboneJS, EmberJS, and GruntJS. Step-by-step tutorials that will help you to utilize the enormous capabilities of Node.js </p>
+        <div class = "price">Buy it for<span>$19.99</span></div><br>
+        <a href = "/books/details/2" class = "button small">Book Details</a>
+    </div>
+    <div class = "large-3 columns book">
+        <img src = "/img/node3.jpg">
+        <h4>Node Web Development</h4>
+        <p>Discover the role of server-side JavaScript in web application development. Explore architecture choices in Node.js for performance and throughput. Install and use Node.js for both development and deployment </p>
+        <div class = "price">Buy it for<span>$19.99</span></div><br>
+        <a href = "/books/details/3" class = "button small">Book Details</a>
+    </div>
+    <div class = "large-3 columns book">
+        <img src = "/img/node4.jpg">
+        <h4>Intro to Node.js</h4>
+        <p>Develop a complete working Node.js application - from start-to-finish. Deploy your new application to a production server. Scale your projects quickly and cheaply  </p>
+        <div class = "price">Buy it for<span>$19.99</span></div><br>
+        <a href = "/books/details/4" class = "button small">Book Details</a>
+    </div>
+{/body}
