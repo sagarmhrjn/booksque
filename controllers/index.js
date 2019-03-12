@@ -1,18 +1,21 @@
 'use strict';
 
-var IndexModel = require('../models/index');
-
+var Book = require('../models/bookModel');
 
 module.exports = function (router) {
-
-    var model = new IndexModel();
-
     router.get('/', function (req, res) {
-        
-        
-        res.render('index', model);
-        
-        
+        Book.find({}, function (err, books) {
+            if (err) {
+                console.log(err);
+            }
+            // Shorten the text
+            books.forEach(function (book) {
+                book.truncText = book.truncText(110);
+            });
+            var model = {
+                books: books
+            }
+            res.render('index', model);
+        });
     });
-
 };
