@@ -12,7 +12,6 @@ var bookModel = function () {
         price: Number,
         cover: String
     });
-
     // Shorten text
     bookSchema.methods.truncText = function (length) {
         return this.description.substring(0, length);
