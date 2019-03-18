@@ -1,4 +1,5 @@
 {>"layouts/manage" /}
+{<title}Edit Book{/title}
 
 {<body}
     <div class="row">

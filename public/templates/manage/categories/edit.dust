@@ -1,5 +1,7 @@
 {>"layouts/manage" /}
 
+{<title}Edit Category{/title}
+
 {<body}
     <div class="row">
       <div class="large-12 columns">

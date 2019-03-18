@@ -10,7 +10,7 @@ module.exports = function (router) {
             }
             // Shorten the text
             books.forEach(function (book) {
-                book.truncText = book.truncText(110);
+                book.truncText = book.truncText(50);
             });
             var model = {
                 books: books

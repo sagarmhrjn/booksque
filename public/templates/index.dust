@@ -3,11 +3,11 @@
 {<body}
     {#books}
         <div class = "large-3 columns book">
-            <img src = "{.cover}">
-            <h4>{.title}</h4>
-            <p>{.truncText}..<a href = "/books/details/{._id}" target="_blank">Read More</a></p>
-            <div class = "price">Buy it for<span>${.price}</span></div><br>
-            <a href = "/books/details/{._id}" class = "button small">Book Details</a>
+            <a href = "/books/details/{._id}" ><img src = "{.cover}" style="height:300px;width:100%"></a>
+            <h4 class="title">{.title}</h4>
+            <p>{.truncText}..<a href = "/books/details/{._id}" >Read More</a></p>
+            <div class = "price"><a href = "/books/details/{._id}" >Buy it for <span>${.price}</span></a></div><br>
+            
         </div>
     {/books}
 {/body}
